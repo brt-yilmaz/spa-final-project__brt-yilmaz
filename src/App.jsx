@@ -1,13 +1,20 @@
-import Button from "@mui/material/Button";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import AppLayout from "./ui/AppLayout";
+import Dashboard from "./pages/Dashboard";
+import { Providers } from "./store/provider";
 
 function App() {
   return (
-    <>
-      <h1 className={"py-4 font-bold bg-slate-600"}> Project setup</h1>
-      <Button variant="contained" className={"bg-green-500"}>
-        Test
-      </Button>
-    </>
+    <Providers>
+      <BrowserRouter>
+        <Routes>
+          <Route element={<AppLayout />}>
+            <Route index element={<Navigate replace to="dashboard" />} />
+            <Route path="dashboard" element={<Dashboard />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </Providers>
   );
 }
 
