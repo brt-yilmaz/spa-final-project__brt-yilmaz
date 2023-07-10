@@ -8,7 +8,7 @@ function MoviesListContainer() {
   if (isLoading) return <Spinner />;
 
   return (
-    <div className="grid  grid-cols-1 gap-6 px-10 pb-10 pt-20">
+    <div className="grid  grid-cols-1 gap-6 px-10 pb-10 pt-10">
       {movies?.map((movie) => (
         <Movie key={movie.imdbID} movieData={movie} />
       ))}
