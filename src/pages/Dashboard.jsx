@@ -1,5 +1,11 @@
+import MoviesListContainer from "../features/movies/MoviesListContainer";
+
 function Dashboard() {
-  return <div>Dashboard</div>;
+  return (
+    <div>
+      <MoviesListContainer />
+    </div>
+  );
 }
 
 export default Dashboard;

@@ -1,7 +1,9 @@
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { queryActions } from "../../store";
 import { useRef, useEffect } from "react";
 import { AiOutlineClose } from "react-icons/ai";
+import { useQuery } from "@tanstack/react-query";
+import { useQueryClient } from "@tanstack/react-query";
 
 function Search({ onHandleSearchFocused }) {
   const dispatch = useDispatch();
@@ -19,6 +21,7 @@ function Search({ onHandleSearchFocused }) {
     }
   };
 
+  // to do autofocus in search input field
   useEffect(() => {
     if (inputRef.current) {
       inputRef.current.focus();

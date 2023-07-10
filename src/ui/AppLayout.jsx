@@ -3,7 +3,7 @@ import NavbarContainer from "../components/Navbar/NavBarContainer";
 
 function AppLayout() {
   return (
-    <div className={"bg-gray-900 h-screen"}>
+    <div className={"bg-gray-900 min-h-screen"}>
       <NavbarContainer />
       <main>
         <div>

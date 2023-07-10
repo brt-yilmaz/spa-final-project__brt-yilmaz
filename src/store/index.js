@@ -18,7 +18,7 @@ export const loginActions = loginSlice.actions;
 
 /************************  Query  *******************************/
 
-const initialQueryState = { query: "" };
+const initialQueryState = { query: "superman" };
 
 const querySlice = createSlice({
   name: "query",

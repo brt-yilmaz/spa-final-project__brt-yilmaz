@@ -7,7 +7,7 @@ function NavLogin() {
   return (
     <li className="">
       <button
-        className=" flex max-h-10 items-center gap-2 rounded-md border-slate-800  px-3 py-2  text-slate-400 shadow-sm focus:border-slate-800 focus:outline-none focus:ring-1 focus:ring-slate-700 sm:text-sm"
+        className=" flex max-h-9 items-center gap-2 rounded-md border-slate-800  px-3 py-2  text-slate-800 shadow-sm focus:border-slate-800 focus:outline-none focus:ring-1 focus:ring-slate-700 sm:text-sm bg-yellow-400 cursor-pointer"
         onClick={() => dispatch(loginActions.changeLogin())}
       >
         <p>Login</p>
