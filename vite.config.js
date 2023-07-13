@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   assetsInclude: ["**/*.JPG"],
   server: {
-    host: "192.168.2.208",
+    host: "192.168.2.209",
   },
 });
