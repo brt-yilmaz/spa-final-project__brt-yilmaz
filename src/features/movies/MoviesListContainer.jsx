@@ -1,8 +1,6 @@
 import { moviesFakeArray } from "../../data/fakeArrays";
-import MovieSkeleton from "../../ui/MovieSkeleton";
 import Movie from "./Movie";
 import { useSearchMovies } from "./useSearchMovies";
-import Spinner from "../../ui/Spinner";
 import MoviesListSpinner from "../../ui/MoviesListSpinner";
 
 function MoviesListContainer() {
