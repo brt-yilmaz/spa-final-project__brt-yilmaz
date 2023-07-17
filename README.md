@@ -19,7 +19,7 @@ It allows you to create different pages and routes.
 ## Installation
 
 ```bash
-git@github.com:brt-yilmaz/movie-threads.git
+git@github.com:brt-yilmaz/spa-final-project__brt-yilmaz.git
 ```  
 
 ```bash
