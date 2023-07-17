@@ -11,7 +11,7 @@ function Movie({ movieData }) {
     <MovieSkeleton />
   ) : (
     <>
-      <div className="rounded-xl flex gap-4 bg-gray-600 px-4 pb-3 pt-4 shadow-md shadow-slate-500 animate-fadeIn">
+      <div className="rounded-xl w-96 flex gap-4 bg-gray-600 px-4 pb-3 pt-4 shadow-md justify-self-center	 shadow-slate-500  animate-fadeIn">
         <div className="w-2/5">
           <img src={Poster} alt={Title} className="w-full rounded-md" />
         </div>

@@ -10,7 +10,7 @@ function MoviesListContainer() {
     return moviesFakeArray.map((el) => <MoviesListSpinner key={el} />);
 
   return (
-    <div className="grid  grid-cols-1 gap-6 px-4 pb-10 pt-10">
+    <div className="grid gap-6 px-4 pb-10 pt-10 mx-auto grid-cols-[repeat(auto-fit,390px)] place-content-center">
       {movies?.map((movie) => (
         <Movie key={movie.imdbID} movieData={movie} />
       ))}
