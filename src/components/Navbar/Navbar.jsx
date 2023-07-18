@@ -8,7 +8,7 @@ function Navbar({ onHandleSearchFocused }) {
   const isLogin = useSelector((state) => state.login.isLogin);
 
   return (
-    <ul className="flex items-center  gap-4 max-w-[1200px]  mx-auto">
+    <ul className="flex items-center  gap-4 max-w-[1200px]  mx-auto animate-fadeIn">
       <li className="min-w-[5rem]">
         <LiveTvOutlinedIcon className="text-4xl text-gray-400" />
       </li>

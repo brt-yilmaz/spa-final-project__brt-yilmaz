@@ -27,7 +27,7 @@ function Search({ onHandleSearchFocused }) {
   }, []);
 
   return (
-    <div className="mt-1 flex items-center max-w-[600px] mx-auto">
+    <div className="mt-1 flex items-center max-w-[600px] mx-auto animate-fadeIn">
       <div className="relative mx-auto w-[70%]">
         <input
           className="max-h-8 w-full rounded-md border-slate-800 bg-gray-800 px-3 py-2 text-slate-400 opacity-60 shadow-sm backdrop-blur-sm placeholder:italic placeholder:text-slate-400 focus:border-slate-800 focus:outline-none focus:ring-1 focus:ring-slate-700 sm:text-sm"
