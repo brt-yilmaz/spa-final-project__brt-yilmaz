@@ -1,4 +1,5 @@
 import LiveTvOutlinedIcon from "@mui/icons-material/LiveTvOutlined";
+import logo from "../../../public/logo.svg";
 import NavLogin from "./NavLogin";
 import NavUser from "./NavUser";
 import { useSelector } from "react-redux";
@@ -9,8 +10,8 @@ function Navbar({ onHandleSearchFocused }) {
 
   return (
     <ul className="flex items-center  gap-4 max-w-[1200px]  mx-auto animate-fadeIn">
-      <li className="min-w-[5rem]">
-        <LiveTvOutlinedIcon className="text-4xl text-gray-400" />
+      <li className="min-w-[3rem]">
+        <img src={logo} className="text-2xl text-gray-400" />
       </li>
       <li className="ml-auto">
         <BsSearch
